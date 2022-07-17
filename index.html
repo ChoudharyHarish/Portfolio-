@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 420px)" href="assets/css/responsive.css">
     <!-- CSS only -->
     <title>Portfolio</title>
 </head>
@@ -27,7 +28,11 @@
             <li><a class="navigationLink" href="#skills">Skills</a></li>
             <li><a class="navigationLink" href="#portfolio">Portfolio</a></li>
             <li><a class="navigationLink" href="#contact">Contact</a></li>
-            <a class="iconLink iconMode">
+            <span class="hamburger iconLink">
+                <img  class = "icon iconDark"src="assets/img/hamburger.png" alt="">
+                <img  class = "icon iconLight"src="assets/img/hamburger (1).png" alt="">
+            </span>
+            <a class="iconLink iconMode night-icon">
                 <img src="assets/img/moon.png" alt="" class="icon iconDark" onclick="toggleBackground()">
                 <img src="assets/img/light.png" alt="" class="icon iconLight" onclick="toggleBackground()"></a>
         </div>

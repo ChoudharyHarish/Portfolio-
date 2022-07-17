@@ -526,3 +526,7 @@ flex-direction: row;
 .aboutMe h1{
   margin: 0;
 }
+
+.hamburger{
+  display: none;
+}
