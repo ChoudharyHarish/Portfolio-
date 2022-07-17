@@ -487,3 +487,42 @@ margin-left: 1rem;
 border-radius: 5px;
 font-size: 16px;
 }
+
+
+#footer{
+  background-color:#4C3575;
+}
+
+
+.social-footer{
+flex-direction: row;
+}
+
+.iconFooter{
+      margin: 1.5rem;
+      width: 8%;
+}
+
+
+.footerContainer{
+  display: flex;
+  /* grid-template-columns: repeat(2,auto); */
+  color: white;
+  padding: 2rem;
+}
+
+
+.aboutMe{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:baseline;
+  align-items: flex-start;
+}
+
+.aboutMe p{
+  margin: 0;
+}
+.aboutMe h1{
+  margin: 0;
+}

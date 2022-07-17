@@ -58,13 +58,4 @@ for (let i = 0; i < 3; i++) {
     
 }
 
-// for (let i = 0; i < 3; i++) {
-//     const element = document.getElementsByClassName("uil-angle-down")[i];
-
-//     element.addEventListener("click",function(event){
-//         const arr = event.target.classList;
-//         console.log(arr);
-//         arr.toggle("skills_animation_down");
-//     })
-// }
 
