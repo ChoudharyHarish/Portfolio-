@@ -13,6 +13,9 @@
 #main{
     height: 100vh;
 }
+#about{
+    padding: 3rem 0rem;
+}
 nav{
     width: 100%;
 }
@@ -84,10 +87,6 @@ li a{
     grid-gap: 0rem;
 } 
 
-#about{
-
-    padding: 0rem; 
-}
 
 #about .container{
         width: 100vw;
@@ -184,7 +183,7 @@ p{
     padding-bottom: 0rem;
 }
 #portfolio{
-    padding: 0% 3rem;
+    padding:4rem 2rem;
 }
 
 .projectCard p{
@@ -195,7 +194,7 @@ p{
 }
 
 #contact{
-    padding: 0rem;
+    padding: 4rem 0rem;
 }
 
 .contactContainer {
