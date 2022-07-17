@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Portfolio</title>
+</head>
+
+<body class="">
+
+    <nav class="navbar" id="nav">
+        <div class="logo">
+            <h2>Harish</h2>
+        </div>
+
+        <div class="menu">
+            <li><a class="navigationLink" href="#">Home</a></li>
+            <li><a class="navigationLink" href="#about">About</a></li>
+            <li><a class="navigationLink" href="#skills">Skills</a></li>
+            <li><a class="navigationLink" href="#portfolio">Portfolio</a></li>
+            <li><a class="navigationLink" href="#contact">Contact</a></li>
+            <a class="iconLink iconMode">
+                <img src="assets/img/moon.png" alt="" class="icon iconDark" onclick="toggleBackground()">
+                <img src="assets/img/light.png" alt="" class="icon iconLight" onclick="toggleBackground()"></a>
+        </div>
+    </nav>
+
+
+    <div id="main">
+
+        <div class="social-icons">
+            <a href="https://github.com/ChoudharyHarish" class="iconLink">
+                <img class="social-icon icon socialDark" src="assets/img/github.png" alt="">
+                <img class="social-icon icon socialLight" src="assets/img/github (2).png" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/harish-choudhary-a86aa51b2/" class="iconLink">
+                <img class="social-icon icon socialDark" src="assets/img/linkedin.png" alt="">
+                <img class="social-icon icon socialLight" src="assets/img/linkedin (2).png" alt="">
+            </a>
+            <a href="https://www.instagram.com/harish__seervi17/" class="iconLink">
+                <img class="social-icon icon socialDark" src="assets/img/instagram.png" alt="">
+                <img class="social-icon icon socialLight" src="assets/img/instagram (2).png" alt="">
+            </a>
+        </div>
+
+        <div class="container">
+            <div class="text">
+                <h1>Hi, I am Harish</h1>
+                <h3>FrontEnd Developer</h3>
+                <p>Skilled in FrontEnd Development , producing Quality Work <br> Read to take New Challenges </p>
+                <a href="#contact"><button class="btn"><span style="color: white;">Contact Me</span>
+                    <a href="" class="iconLink"><img class="icon" src="assets/img/send (2).png" alt=""></a></button></a>
+
+                <button class="scroll-down">
+                    <a href="" class="iconLink"><img class="icon" src="assets/img/scroll-down.png" alt=""> </a>
+                    <span>Scroll Down</span>
+                    <a href="" class="iconLink"><img class="icon" src="assets/img/down-arrow.png" alt=""></a>
+                </button>
+            </div>
+            <div class="imageOfMe">
+                <img class="img-resp mySelf" src="assets/img/Personal.png" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="about">
+
+        <h1 class="h-primary">About Me</h1>
+        <h2 class="h-secondary">My Introduction</h2>
+
+        <div class="container">
+            <div class="imageOfMe">
+                <img class="img-resp" src="assets/img/Personal.png" alt="">
+            </div>
+            <div class="text2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolor quam, eligendi libero odit nam
+                    eveniet iste fugiat dignissimos error? Lorem </p>
+
+                <div class="small-container">
+                    <div class="card">
+                        <h1 class="h-primary">15+</h1>
+                        <p>Completed Projects</p>
+                    </div>
+                    <div class="card">
+                        <h1 class="h-primary">05+</h1>
+                        <p>Companies Worked</p>
+                    </div>
+                    <div class="card">
+                        <h1 class="h-primary">08+</h1>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+
+                <button class="btn">Download CV <a href="" class="iconLink"><img src="assets/img/download.png" alt=""
+                            class="icon"></a> </button>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    <div id="skills">
+        <h1 class="h-primary">Skills</h1>
+        <h2 class="h-secondary">About My Skills</h2>
+
+        <div class="skills_container">
+            <!-- //Making our card component -->
+            <div class="skills_content">
+                <div class="skills_header">
+                    <i class="uil uil-brackets-curly skills_icon"></i>
+                    <div>
+                        <h1 class="h-secondary">FrontEnd Development</h1>
+                    </div>
+                    <i class="uil uil-angle-down skills_icon"></i>
+                </div>
+
+                <div class="skills_list skills_hide">
+
+                <div class="skills_data">
+                    <div class="skills_title">
+                        <h3 class="skills_name">HTML</h3>
+                        <span class="skills_number">80%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage"></span>
+                    </div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_title">
+                        <h3 class="skills_name">CSS</h3>
+                        <span class="skills_number">80%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage"></span>
+                    </div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_title">
+                        <h3 class="skills_name">BOOTSTRAP</h3>
+                        <span class="skills_number">80%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage"></span>
+                    </div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_title">
+                        <h3 class="skills_name">JAVASCRIPTL</h3>
+                        <span class="skills_number">80%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage"></span>
+                    </div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_title">
+                        <h3 class="skills_name">REACT</h3>
+                        <span class="skills_number">80%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage"></span>
+                    </div>
+                </div>
+                </div>
+             </div>
+            <div class="skills_content">
+                <div class="skills_header">
+                    <i class="uil uil-brackets-curly skills_icon"></i>
+                    <div>
+                        <h1 class="h-secondary">BackEnd Development</h1>
+                    </div>
+                    <i class="uil uil-angle-down skills_icon"></i>
+                </div>
+
+                <div class="skills_list skills_hide">
+                <div class="skills_data">
+                    <div class="skills_title">
+                        <h3 class="skills_name">NODEJS</h3>
+                        <span class="skills_number">60%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage"></span>
+                    </div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_title">
+                        <h3 class="skills_name">EXPRESS</h3>
+                        <span class="skills_number">60%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage"></span>
+                    </div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_title">
+                        <h3 class="skills_name">EJS</h3>
+                        <span class="skills_number">60%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage"></span>
+                    </div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_title">
+                        <h3 class="skills_name">MONOGODB</h3>
+                        <span class="skills_number">60%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage"></span>
+                    </div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_title">
+                        <h3 class="skills_name">MONGOOSE</h3>
+                        <span class="skills_number">60%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage"></span>
+                    </div>
+                </div>
+                </div>
+             </div>
+            <div class="skills_content">
+                <div class="skills_header">
+                    <i class="uil uil-brackets-curly skills_icon"></i>
+                    <div>
+                        <h1 class="h-secondary">Some other Tools</h1>
+                    </div>
+                    <i class="uil uil-angle-down skills_icon"></i>
+                </div>
+
+                <div class="skills_list skills_hide">
+                <div class="skills_data">
+                    <div class="skills_title">
+                        <h3 class="skills_name">C</h3>
+                        <span class="skills_number">80%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage"></span>
+                    </div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_title">
+                        <h3 class="skills_name">C++</h3>
+                        <span class="skills_number">80%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage"></span>
+                    </div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_title">
+                        <h3 class="skills_name">Git and Github</h3>
+                        <span class="skills_number">80%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage"></span>
+                    </div>
+                </div>
+                </div>
+             </div>
+        </div>
+    </div>
+
+    </div>
+
+    <div id="portfolio">
+        <h1 class="h-primary">Projects</h1>
+        <h2 class="h-secondary">My recent Projects</h2>
+
+        <div class="projectContainer">
+            <div class="projectCard">
+                <img class="img-resp" src="assets/img/SpaceTourism.jpeg" alt="">
+                <div class="projectBtn">
+                    <a href="https://github.com/ChoudharyHarish/SpaceTourism" class="btn">View Code</a>
+                    <a href="https://choudharyharish.github.io/SpaceTourism/index.html" class="btn">Live Demo</a>
+                </div>
+                <p>A challenge from FrontEnd Mentor.io</p>
+
+            </div>
+            <div class="projectCard">
+                <img class="img-resp" src="assets/img/WindBnb.webp" alt="">
+                <div class="projectBtn">
+                    <a href="https://github.com/ChoudharyHarish/WindBnb" class="btn">View Code</a>
+                    <a href="https://choudharyharish.github.io/WindBnb/" class="btn">Live Demo</a>
+                </div>
+                <p>WindBnb Website Challenge from debchallenge.io</p>
+
+            </div>
+            <div class="projectCard">
+                <img class="img-resp" src="assets/img/p1.jpeg" alt="">
+                <div class="projectBtn">
+                    <a href="https://github.com/ChoudharyHarish/RealEstateDummy" class="btn">View Code</a>
+                    <a href="https://choudharyharish.github.io/RealEstateDummy/" class="btn">Live Demo</a>
+                </div>
+                <p>Real Estate website for finding your Dream Home</p>
+
+            </div>
+            <div class="projectCard">
+                <img class="img-resp" src="assets/img/p1.jpeg" alt="">
+                <div class="projectBtn">
+                    <a class="btn">View Code</a>
+                    <a class="btn">Live Demo</a>
+                </div>
+                <p>A challenge from FrontEnd Mentor.io</p>
+
+            </div>
+            <div class="projectCard">
+                <img class="img-resp" src="assets/img/p1.jpeg" alt="">
+                <div class="projectBtn">
+                    <a class="btn">View Code</a>
+                    <a class="btn">Live Demo</a>
+                </div>
+                <p>A challenge from FrontEnd Mentor.io</p>
+
+            </div>
+            <div class="projectCard">
+                <img class="img-resp" src="assets/img/TipCalculator.jpeg" alt="">
+                <div class="projectBtn">
+                    <a href="https://github.com/ChoudharyHarish/Tip-Calculator" class="btn">View Code</a>
+                    <a href="https://choudharyharish.github.io/Tip-Calculator/" class="btn">Live Demo</a>
+                </div>
+                <p>A challenge from FrontEnd Mentor.io</p>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <div id="contact">
+        <h1 class="h-primary">Contact Me </h1>
+        <h2 class="h-secondary">Get In Touch</h2>
+
+        <div class="contactOptions">
+            <div class="contactContainer">
+                <div class="contactCard">
+                    <span class="iconLink contactIcon">
+                        <img class="icon socialDark" src="assets/img/contact.png" alt="">
+                        <img class="icon socialLight" src="assets/img/contact (1).png" alt="">
+                    </span>
+                    <div class="contactText">
+                        <h2 class="h-secondary">Call Me</h2>
+                        <p>6354617487</p>
+                    </div>
+                </div>
+                <div class="contactCard">
+                    <span class="iconLink contactIcon">
+                        <img class="icon socialDark" src="assets/img/gmail (1).png" alt="">
+                        <img class="icon socialLight" src="assets/img/gmail (2).png" alt="">
+
+                    </span>
+                    <div class="contactText">
+                        <h2 class="h-secondary">G-Mail</h2>
+                        <p>harishseervi07 <br> @gmail.com</p>
+                    </div>
+                </div>
+                <div class="contactCard">
+                    <span class="iconLink contactIcon">
+                        <img class="icon socialDark" src="assets/img/location.png" alt="">
+                        <img class="icon socialLight" src="assets/img/location (1).png" alt="">
+                    </span>
+                    <div class="contactText">
+                        <h2 class="h-secondary">Location</h2>
+                        <p>Hyderabad , India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form">
+                <form action="/" method="post">
+                    <div class="input">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button class="btn msg-btn">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
