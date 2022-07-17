@@ -124,7 +124,7 @@ p{
 .social-icons {
     position: absolute;
     top: 12rem;
-    right: 19rem;
+    right: 73%;
 }
 
 .imageOfMe{
@@ -139,6 +139,10 @@ p{
 #about .imageOfMe {
     margin-left: 0rem;
     padding-top: 2rem;
+}
+
+.text p{
+    padding: 1rem;
 }
 
 .text2{
@@ -208,10 +212,26 @@ margin: 0.5rem 0rem;
 
 .input{
     flex-direction: column;
-    width: 82%;
+}
+input{
+    width: auto;
 }
 
 textarea{
-    width: 85%;
+    width: 83%;
     padding: 1rem;
+}
+
+.msg-btn{
+    padding: 0.5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.aboutMe{
+    align-items: center;
+    display: none;
+}
+.social-footer{
+    justify-content: center;
 }
