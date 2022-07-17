@@ -58,3 +58,17 @@ for (let i = 0; i < 3; i++) {
     })
     
 }
+
+
+
+const menu = document.getElementById("hamburgerMenu");
+menu.addEventListener("click",function(){  
+    const nav = document.getElementsByClassName("navbar")[0].classList;
+    nav.toggle("hamburgerNav");
+    console.log(nav);
+       for(let i = 0; i < 5; i++){
+           const menuItem = document.getElementsByTagName("li")[i].classList;
+           menuItem.toggle("showMenu");
+       }
+})
+console.log(menu);

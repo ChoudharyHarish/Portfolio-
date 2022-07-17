@@ -7,21 +7,58 @@
     position: absolute;
      top: 53vh;
     width: 7%;
-    right: 1rem;
+    right: 3rem;
 }
 
-.menu li{
+nav{
+    width: 100%;
+}
+
+.menuHide{
     display: none;
 }
+.showMenu{
+    display: block;
+    transition: 0.5 all ease-in-out;
+    color: white;
+}
 
+.logo h2{
+    position: fixed;
+    top: 1.4rem;
+}
+.navbar{
+    height: 3rem;
+}
+
+.hamburgerNav{
+    height: 25rem;
+    background-color: #0f031d;
+    color: white;
+    opacity: 0.92;
+}
+
+li a{
+    color: white;
+    transition: 0.5s all ease-in-out;
+}
+
+.menuContainer{
+    right: 2rem;
+    position: fixed;
+    top: 6rem;
+}
 .logo{
     padding-left: 1rem;
 }
 
+
 .hamburger{
     display: block;
-    position: relative;
-    left: 2rem;
+    position: fixed;
+    top: 0rem;
+    width: 12%;
+    right: 1.6rem;
   }
 
 .skills_container{
@@ -55,6 +92,7 @@
 .skills_content {
 margin: 0;
 padding: 0;
+    border-radius: 20px;
 }
 
 .text{
@@ -96,4 +134,84 @@ p{
 
 .scroll-down{
     display: none;
+}
+
+#about .imageOfMe {
+    margin-left: 0rem;
+    padding-top: 2rem;
+}
+
+.text2{
+    padding:0rem; 
+    width: 100%;
+    margin-right: 0rem;
+}
+
+.text2 p{
+    padding: 1rem;
+    margin-top: 0rem;
+}
+
+.text2 h1{
+    font-size: 25px;
+}
+
+.card{
+    align-items: center;
+}
+
+.card p{
+    padding: 0rem;
+    text-align: center;
+}
+
+.h-primary{
+    font-size: 30px;
+}
+.h-secondary{
+    font-size: 18px;
+}
+
+#skills{
+    padding-bottom: 0rem;
+}
+#portfolio{
+    padding: 0% 3rem;
+}
+
+.projectCard p{
+    margin-top: 0rem;
+}
+.projectCard{
+    margin: 1rem 0rem;
+}
+
+#contact{
+    padding: 0rem;
+}
+
+.contactContainer {
+    padding: 1rem 0rem;
+}
+
+.contactCard {
+margin: 0.5rem 0rem;
+}
+
+.contactText p{
+    text-align: center;
+}
+
+.contactOptions{
+    padding: 0rem;
+}
+
+.input{
+    flex-direction: column;
+    width: 82%;
+}
+
+textarea{
+    width: 85%;
+    padding: 1rem;
 }

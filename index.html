@@ -23,16 +23,17 @@
         </div>
 
         <div class="menu">
-            <span class="hamburger iconLink">
+            <span class="hamburger iconLink" id = "hamburgerMenu">
                 <img  class = "icon iconDark"src="assets/img/hamburger.png" alt="">
                 <img  class = "icon iconLight"src="assets/img/hamburger (1).png" alt="">
             </span>
-            <li><a class="navigationLink" href="#">Home</a></li>
-            <li><a class="navigationLink" href="#about">About</a></li>
-            <li><a class="navigationLink" href="#skills">Skills</a></li>
-            <li><a class="navigationLink" href="#portfolio">Portfolio</a></li>
-            <li><a class="navigationLink" href="#contact">Contact</a></li>
-            
+            <div class="menuContainer">
+            <li class="menuHide"><a class="navigationLink" href="#">Home</a></li>
+            <li class="menuHide"><a class="navigationLink" href="#about">About</a></li>
+            <li class="menuHide"><a class="navigationLink" href="#skills">Skills</a></li>
+            <li class="menuHide"><a class="navigationLink" href="#portfolio">Portfolio</a></li>
+            <li class="menuHide"><a class="navigationLink" href="#contact">Contact</a></li>
+        </div>
             <a class="iconLink iconMode night-icon">
                 <img src="assets/img/moon.png" alt="" class="icon iconDark" onclick="toggleBackground()">
                 <img src="assets/img/light.png" alt="" class="icon iconLight" onclick="toggleBackground()"></a>
