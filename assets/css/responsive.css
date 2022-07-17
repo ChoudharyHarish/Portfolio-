@@ -1,23 +1,27 @@
 .menu{
     flex-direction: column;
-    align-items: flex-end;
-    padding-right: 5rem;
+    margin-left: 40%
 }
 
 .night-icon{
     position: absolute;
-    top: 85vh;
-    width: 10%;
-    right: 0;
+     top: 53vh;
+    width: 7%;
+    right: 1.5rem;
 }
 
 .menu li{
     display: none;
 }
 
+.logo{
+    padding-left: 1rem;
+}
 
 .hamburger{
     display: block;
+    position: relative;
+    left: 2rem;
   }
 
 .skills_container{
@@ -25,6 +29,11 @@
 }
 
 
+.container{
+    flex-direction: column;
+    padding: 0rem;
+    align-items: center;
+}
 .contactOptions{
     flex-direction: column;
 }
@@ -32,4 +41,59 @@
 .projectContainer{
     grid-template-columns: repeat(1,auto);
     grid-gap: 0rem;
+} 
+
+#about{
+
+    padding: 0rem; 
+}
+
+#about .container{
+        width: 100vw;
+}
+
+.skills_content {
+margin: 0;
+padding: 0;
+}
+
+.text{
+    padding: 0rem;
+    padding-top:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 32px;
+    line-height: 4rem;
+}
+
+h3{
+    font-size: 16px;
+}
+p{
+    font-size: 12px;
+}
+
+.btn{
+    width: 50%;
+    padding: 0rem;
+}
+
+.social-icons {
+    position: absolute;
+    top: 12rem;
+    right: 19rem;
+}
+
+.imageOfMe{
+    padding-bottom: 1rem;
+    padding-top: 5rem;
+}
+
+.scroll-down{
+    display: none;
 }
