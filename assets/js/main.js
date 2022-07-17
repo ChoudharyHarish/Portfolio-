@@ -1,22 +1,23 @@
 const toggleBackground = function(){
     const getClass = document.getElementsByTagName("BODY")[0].classList ; //Grabbing the body's classlist
     const nav = document.getElementsByClassName("navbar")[0].classList;
-    const darkButton = document.querySelector(".iconDark").classList;
-    const lightButton = document.querySelector(".iconLight").classList;
+
+    for(let i = 0; i < 2; i++){
+    const darkButton = document.querySelectorAll(".iconDark")[i].classList;
+    const lightButton = document.querySelectorAll(".iconLight")[i].classList;
+    darkButton.toggle("iconToggle");
+    lightButton.toggle("iconToggle2");
+    }
 
     getClass.toggle("toggleClass");
     nav.toggle("toggleClass");
-    darkButton.toggle("iconToggle")
-    lightButton.toggle("iconToggle2")
-
-
+   
     for (let i = 0; i < 5; i++) {
         const element = document.getElementsByClassName("navigationLink")[i].classList;
         element.toggle("toggleClass");
-        
     }
 
-    for (let i = 0; i < 16; i++) {
+    for (let i = 0; i < 6; i++) {
     const socialDarkButton = document.querySelectorAll(".socialDark")[i].classList; 
     const socialLightButton = document.querySelectorAll(".socialLight")[i].classList;
         
@@ -57,6 +58,3 @@ for (let i = 0; i < 3; i++) {
     })
     
 }
-
-
-const element = document.getElementsByTagName("li")

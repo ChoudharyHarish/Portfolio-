@@ -494,13 +494,15 @@ font-size: 16px;
 }
 
 
-.social-footer{
-flex-direction: row;
+.social-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .iconFooter{
       margin: 1.5rem;
-      width: 8%;
+      width: 4%;
 }
 
 
@@ -508,7 +510,7 @@ flex-direction: row;
   display: flex;
   /* grid-template-columns: repeat(2,auto); */
   color: white;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 
