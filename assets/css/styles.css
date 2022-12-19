@@ -5,7 +5,6 @@
 }
 
 body{
-  width: 100%;
   overflow-x: hidden;
 }
 
@@ -156,7 +155,7 @@ p{
 
 .text{
   padding: 2rem;
-  padding-top: 8rem;
+  padding-top: 8rem; 
 }
 .imageOfMe{
   width: 50%;
@@ -227,6 +226,9 @@ font-weight: lighter;
 line-height: normal;
 }
 
+.mt-0{
+margin-top: 0rem;
+}
 
 .card{
   display: flex;
@@ -242,13 +244,14 @@ line-height: normal;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  /* border: 3px solid; */
   width: 50%;
-  margin-right: 8rem;
+  /* margin-right: 8rem; */
 }
 
 #about .imageOfMe{
-  margin-left: 8rem;
+  width: 30%;
 }
 #about img{
   border-radius: 10px;
@@ -256,6 +259,9 @@ line-height: normal;
 
 #about .container{
     padding: 0rem;
+    width: 80%;
+    justify-content: space-between;
+    /* border: 3px solid; */
 }
 
 .small-container{
@@ -277,20 +283,41 @@ line-height: normal;
 
 .skills_container{
   /* border: 3px solid; */
-  padding: 2rem 0rem;
-  display: grid;
-  grid-template-columns:repeat(2,auto);
-  grid-gap: 2rem;
+  /* padding: 2rem 0rem; */
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 
 .skills_content{
-  /* border: 3px solid red; */
-  margin: 0rem 2rem;
-  padding: 0.5rem 2rem;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 0.5rem 0rem;
 }
 
+.flex{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-2{
+  margin: 0rem 0.5rem;
+}
+
+.w-10{
+  max-width: 10% !important;
+}
+
+.l-10{
+  line-height:3.4rem;
+}
 
 
 .skills_icon{
@@ -543,26 +570,29 @@ font-size: 16px;
 }
 
 
-.observeElement{
+.observeElement {
   opacity: 0;
-  transition: all ease-in-out 1s;
+  transition: all ease-out 1s;
   filter: blur(5px);
+  transform: initial;
   transform: translateX(-100%);
+  overflow-x: hidden;
 }
-.observeRight{
-  transform: translateX(100%);
+
+.observeRight {
+  transform: initial;
+  transform: translateX(-100%);
 }
 
 .blur {
   filter: blur(20px);
 }
 
-.showObserver{
+.showObserver {
   opacity: 1;
   filter: blur(0);
-  transform: translateX(0);
+  transform: translateY(0);
 }
-
 
 
 .project:nth-child(2){

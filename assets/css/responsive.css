@@ -1,6 +1,13 @@
+ 
+
+
 .menu{
     flex-direction: column;
     margin-left: 40%
+}
+
+body{
+    overflow-x: hidden;
 }
 
 .night-icon{
@@ -74,7 +81,7 @@ li a{
 
 .container{
     flex-direction: column;
-    padding: 0rem;
+    /* padding-top: 2rem; */
     align-items: center;
     justify-content: center;
 }
@@ -93,7 +100,7 @@ li a{
 }
 
 .skills_content {
-margin: 0;
+margin: 1rem 0rem;
 padding: 0;
     border-radius: 20px;
 }
@@ -136,6 +143,7 @@ p{
 }
 
 .scroll-down{
+    margin-top: 2rem;
     display: none;
 }
 
@@ -173,14 +181,17 @@ p{
 }
 
 .h-primary{
-    font-size: 30px;
+    font-size: 22px;
 }
 .h-secondary{
     font-size: 18px;
 }
+.media-img{
+    max-width: 18% !important;
+}
 
 #skills{
-    padding-bottom: 0rem;
+    padding: 0rem;
 }
 #portfolio{
     padding:4rem 2rem;
@@ -237,4 +248,40 @@ textarea{
 }
 .social-footer{
     justify-content: center;
+}
+
+
+.observeElement {
+    opacity: 0;
+    transition: all ease-out 1s;
+    filter: blur(5px);
+    transform: initial;
+    transform: translateX(-100%);
+    overflow-x: hidden;
+}
+
+.observeRight {
+    transform: initial;
+    transform: translateX(-100%);
+}
+
+.blur {
+    filter: blur(20px);
+}
+
+.showObserver {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+
+@media  screen and (max-width:910px) and (min-width : 620px) {
+    #about .container {
+        width: 100%;
+    }
+
+    body {
+        background-color: red;
+    }
 }
