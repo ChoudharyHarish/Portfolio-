@@ -9,7 +9,6 @@
 body{
     overflow-x: hidden;
 }
-
 .night-icon{
     position: absolute;
      top: 53vh;
@@ -156,6 +155,7 @@ p{
 #about .imageOfMe {
     margin-left: 0rem;
     padding-top: 2rem;
+    width: 60%;
 }
 
 .text p{
