@@ -4,6 +4,11 @@
   font-family:'Montserrat', sans-serif; ;
 }
 
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
 :root {
   --primaryBackground: white;
   --primaryColor: black;
@@ -178,10 +183,10 @@ p{
 
 
 .mySelf{
-background-color: #4C3575;
+/* background-color: #4C3575; */
 clip-path: circle(50% at 50% 50%);
 display: flex;
-padding-top: 4px;
+/* padding-top: 4px; */
 }
 
 .scroll-down{
@@ -535,4 +540,43 @@ font-size: 16px;
 
 .hamburger{
   display: none;
+}
+
+
+.observeElement{
+  opacity: 0;
+  transition: all ease-in-out 1s;
+  filter: blur(5px);
+  transform: translateX(-100%);
+}
+.observeRight{
+  transform: translateX(100%);
+}
+
+.blur {
+  filter: blur(20px);
+}
+
+.showObserver{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+
+
+.project:nth-child(2){
+     transition-delay: 200ms;
+}
+.project:nth-child(3){
+     transition-delay: 400ms;
+}
+.project:nth-child(4){
+     transition-delay: 600ms;
+}
+.project:nth-child(5){
+     transition-delay: 800ms;
+}
+.project:nth-child(6){
+     transition-delay: 1000ms;
 }
